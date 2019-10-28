@@ -1,0 +1,94 @@
+body {
+    background-color:rgb(231, 227, 227);
+}
+
+h1 {color: lightskyblue;
+    margin-left:26px; 
+    font-size:40px;
+    text-shadow:2px 2px 4px #000000;
+}
+
+.first_line {margin-left:30px;}
+
+h2 {color:green;}
+
+.main_content {
+    background:white; 
+    margin-top:40px
+}
+
+.left_picture {
+    background:white; 
+    padding: 20px;}
+
+
+.right_picture {
+    background:white;
+}
+
+img.selected_graph {opacity:0.3;}
+
+.top_section {
+    margin-bottom:40px;
+}
+
+.page_subheader {
+    color:lightskyblue;
+    margin-left:16px; 
+    padding: 10px;
+    font-size:20px;
+    text-shadow:2px 2px 4px #000000;
+}
+
+.explanation {
+    text-align: left; 
+    margin-left:10px;
+    font-style:italic;
+}
+
+.introduction_paragraph {
+    font-style:normal;
+}
+
+.TextWrap {
+    float:left;margin:10px
+}
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(231, 227, 227);
+    color: white;
+    text-align: center;
+    margin-top:50px
+  }
+
+.comparison_figure{
+    margin-left:auto;
+    margin-right:auto;
+width:50%;}
+
+.picture_header {text-align: center;
+    text-shadow:2px 2px 4px #000000;
+    color:yellow  
+}
+
+.mainpage_data {background:white;margin-top:30px;padding:30px}
+
+.top {background:white}
+
+.main_pic{width:700px; height:500px}
+
+@media(max-width:1500px){
+    .main_pic{width:500px;height:400px}
+}
+
+@media(max-width:1000px){
+    .main_pic{width:400px;height:300px}
+}
+
+@media(max-width:700px) {
+    .main_pic{width:250px;
+               height:180px} }
